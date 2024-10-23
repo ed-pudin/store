@@ -1,0 +1,10 @@
+<pre>
+    <!--{{ products | json }}-->
+</pre>
+<!--Los pipes pueden transformar data-->
+<section class="products">
+  <app-product
+    [product] = "producto" *ngFor="let producto of products"
+    (addToCartClick)="addToCart($event)"
+    ></app-product>
+</section>

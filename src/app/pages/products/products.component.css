@@ -1,0 +1,13 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+}
+
+.centerr{
+    justify-content: center;
+    align-items: center;
+}
